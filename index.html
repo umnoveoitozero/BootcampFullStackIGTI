@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>RGB COLORS</title>
+  </head>
+ <body>
+     <h1>RGB Colors</h1>
+    <div id="principal">
+        <div id="cores">
+          <h2 style="color:red ">(R) RED:</h2>
+          <h2 style="color:green ">(G) GREEN:</h2>
+          <h2 style="color:blue ">(B) BLUE :</h2>
+        </div>
+        <div id="ranges">
+          <input type="range" max="255" min="0" class="range" id="red" />
+          <input type="range" max="255" min="0" class="range" id="green" />
+          <input type="range" max="255" min="0" class="range" id="blue" />
+        </div>
+        <div id="text-inputs">
+          <input type="text" disabled="true" class="text" id="tRed" />
+          <input type="text" disabled="true" class="text" id="tGreen" />
+          <input type="text" disabled="true" class="text" id="tBlue" />
+    </div>
+  
+        <div id="paleta"></div>
+  <script src="./js/script.js"></script>
+  </body>
+</html>

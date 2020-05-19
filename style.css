@@ -1,0 +1,43 @@
+body {
+  font-family: "Oswald", sans-serif;
+  padding: 25px;
+  font-size: 10px;
+}
+
+#principal {
+  display: flex;
+  flex-direction: row;
+}
+
+.range,
+.text {
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+}
+
+.text {
+  margin: 7px auto 5px auto;
+}
+
+#text-inputs {
+  width: 70px;
+  margin-left: 10px;
+  align-items: center;
+}
+
+#ranges {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  width: 200px;
+}
+
+#paleta {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  margin-left: 40px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
